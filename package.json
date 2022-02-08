@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/repedore/ex_migrate_kip17/issues"
   },
-  "homepage": "https://github.com/repedore/ex_migrate_kip17#readme"
+  "homepage": "https://github.com/repedore/ex_migrate_kip17#readme",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@klaytn/contracts": "^0.9.0"
+  },
+  "devDependencies": {
+    "truffle-hdwallet-provider-klaytn": "^1.4.2"
+  }
 }
